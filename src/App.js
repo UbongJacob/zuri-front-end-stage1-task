@@ -32,7 +32,7 @@ function App() {
       </section>
 
       <hr className='mt-16 mb-8  w-[90%] mx-auto' />
-      <footer className='flex justify-evenly items-center'>
+      <footer className='flex flex-wrap gap-5 justify-evenly items-center'>
         <p className='font-semibold text-2xl gap-x-1 flex items-center '>Zuri <span className='h-2 rounded-full w-2 bg-red-500' /> Internship</p>
         <p className='text-gray-600'>HNG Internship 9 Frontend Task</p>
         <img src={FooterImage} alt="I4G" />
