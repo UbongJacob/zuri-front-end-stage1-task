@@ -6,7 +6,7 @@ const listData = [
     },
     {
         title: 'Zuri Team',
-        route: 'https://training.zuri.team/design-rules',
+        route: 'https://training.zuri.team',
         id: 'btn_zuri'
     },
     {
