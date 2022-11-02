@@ -1,15 +1,15 @@
 import FooterImage from './assets/icons/I4G.svg'
 import { ReactComponent as GithubIcon } from './assets/icons/github.svg'
 import { ReactComponent as SlackIcon } from './assets/icons/slack.svg'
-import ProfilePicture from './assets/img/profile-img.png'
+import ProfilePicture from './assets/img/profile-img.jpg'
 import listData from './assets/listData'
 
 function App() {
   return (
     <main className="py-11">
 
-      <figure className='flex  items-center flex-col mb-10'>
-        <img id='profile_img' src={ProfilePicture} alt="Annette Black" className='w-20' />
+      <figure className='flex  items-center flex-col mb-10 '>
+        <img id='profile_img' src={ProfilePicture} alt="Annette Black" className='w-20 rounded-full' />
         <figcaption id='twitter' className='font-bold text-lg'>UbonggJacob</figcaption>
         <p id="slack" className='hidden'>UbongJacob</p>
       </figure>
